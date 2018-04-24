@@ -492,6 +492,10 @@ hr {
 .horizontal-menu-page #menu-toggle {
   display: none;
 }
+.portlet.box {
+  max-height: 300px;
+  overflow-y:scroll;
+}
 ul.chats li {
     list-style: none;
     margin: 30px auto;
@@ -1095,7 +1099,7 @@ background: #3e77ab; /* Old browsers */
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .profile img.img-circle {
-  max-width: 130px;
+  max-width: 90px;
 }
 figcaption.ratings {
   margin-top: 20px;
@@ -1208,22 +1212,6 @@ ul.todo-list li .todo-actions a:focus i {
   line-height: 43px;
   font-size: 33px;
 }
-#totop:hover {
-  background: #3C3C3C;
-}
-#totop:hover i {
-  color: #ffffff;
-}
-.demo-layout {
-  background-color: #ffffff;
-  padding: 5px 15px;
-  position: absolute;
-  top: -30px;
-  left: 0;
-  z-index: 9999;
-  border: 1px solid #e5e5e5;
-  cursor: pointer;
-}
 body.sidebar-colors #wrapper {
   background-color: #FFFFFF;
 }
@@ -1233,27 +1221,11 @@ body.sidebar-colors #wrapper #sidebar {
 body.sidebar-colors #wrapper #sidebar ul#side-menu li {
   border-bottom: 1px solid #e5e5e5;
 }
-body.sidebar-colors #wrapper #sidebar ul#side-menu li.active a,
-body.sidebar-colors #wrapper #sidebar ul#side-menu li:hover a {
-  background-color: #f8f8f8;
-}
-body.sidebar-colors #wrapper #sidebar ul#side-menu li.active a i:before,
-body.sidebar-colors #wrapper #sidebar ul#side-menu li:hover a i:before {
-  color: #FFFFFF;
-}
-body.sidebar-colors #wrapper #sidebar ul#side-menu li.active a i .icon-bg,
-body.sidebar-colors #wrapper #sidebar ul#side-menu li:hover a i .icon-bg {
-  left: 0;
-}
 body.sidebar-colors #wrapper #sidebar ul#side-menu li.user-panel {
   display: none;
 }
 body.sidebar-colors #wrapper #sidebar ul#side-menu li a {
   color: #999999;
-}
-body.sidebar-colors #wrapper #sidebar ul#side-menu li a:hover,
-body.sidebar-colors #wrapper #sidebar ul#side-menu li a:focus {
-  background-color: #FFFFFF;
 }
 body.sidebar-colors #wrapper #sidebar ul#side-menu li a i {
   position: relative;
