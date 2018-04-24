@@ -522,6 +522,9 @@ ul.chats li.out .message {
     text-align: right;
     border-radius: 4px;
 }
+ul.chats li.out img.avatar {
+    float: right;
+}
 #chat-form {
   position: absolute;
   right: 0;
@@ -1090,6 +1093,9 @@ background: #3e77ab; /* Old browsers */
 }
 .profile .divider {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.profile img.img-circle {
+  max-width: 130px;
 }
 figcaption.ratings {
   margin-top: 20px;
